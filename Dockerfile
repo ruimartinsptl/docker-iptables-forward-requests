@@ -10,5 +10,5 @@ LABEL maintainer="Rui Martins"
 
 # EXPOSE 8080
 
-# ENTRYPOINT ["python", "/src/app.py"]
+ENTRYPOINT ["/bin/bash"]
 
